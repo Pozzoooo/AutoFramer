@@ -35,7 +35,7 @@ echo "Host $REMOTE_MACHINE_ALIAS
 
 echo "remote_machine=$REMOTE_MACHINE_ALIAS" > ~/.mainframer
 
-sudo wget -O /usr/local/bin/mainframer https://raw.githubusercontent.com/gojuno/mainframer/development/mainframer
+sudo mv mainframer /usr/local/bin/mainframer
 sudo chmod +x /usr/local/bin/mainframer
 
 echo "Copy the next key and send to the server guy
