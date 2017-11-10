@@ -28,7 +28,7 @@ PROJECT_DIR_ON_REMOTE_MACHINE="~/mainframer/$PROJECT_DIR_NAME"
 CONFIG_DIR="$PROJECT_DIR/.mainframer"
 
 if [ ! -f $CONFIG_DIR ]; then
-	CONFIG_DIR="~/.mainframer"
+	CONFIG_DIR="$HOME/.mainframer"
 fi;
 
 CONFIG_FILE="$CONFIG_DIR/config"
